@@ -17,10 +17,13 @@ i {
 li i {
     cursor: pointer;
 }
+.fa-github:hover {
+    border-radius: 50%;
+}
 
 li i:hover {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.45);
-    border-radius: 50%;
+    height: 3.2rem;
 }
 
 .home {
@@ -30,9 +33,19 @@ li i:hover {
     
 }
 
+.card {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.7);
+    
+}
+
+.card:hover {
+    
+   transform: translate(0px, -0.5rem);
+}
+
 ul {
     list-style: none;
-    
+    padding-left: 0;
    
 }
 
