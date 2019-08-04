@@ -16,6 +16,22 @@ i {
 .home {
     height: 100%;
     width: 100%;
-   
+    background: black;
     
+}
+
+ul {
+    list-style: none;
+}
+
+#footer {
+    background-color: black;
+    height: 40px;
+    text-align: center;
+}
+
+#for-footer {
+    color: white;
+    border: 0;
+    margin: 0;
 }
