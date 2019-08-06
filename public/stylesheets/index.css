@@ -6,8 +6,9 @@ html {
 body {
     height: 100%;
     width: 100%;
+    margin: 0;
+  
 }
-
 
 i {
     font-size: 4rem;
@@ -29,6 +30,7 @@ li i:hover {
 .home {
     height: 100%;
     width: 100%;
+    overflow: hidden;
     background: black;
     
 }
