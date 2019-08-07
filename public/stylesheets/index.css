@@ -27,12 +27,37 @@ li i:hover {
     height: 3.2rem;
 }
 
+canvas {
+   position: relative;
+    
+}
+
+#homecontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hometext {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .home {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: black;
+    background: rgb(36, 35, 35);
     
+}
+
+.home > p {
+    color: white;
 }
 
 .card {

@@ -12,7 +12,7 @@ var mouse = {
 }
 
 var maxRadius = 70;
-var minRadius = 10;
+var minRadius = 5;
 
 var colorArray = [
     '#00BFFF',
