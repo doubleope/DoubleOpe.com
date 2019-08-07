@@ -117,13 +117,13 @@ button:hover {
 
 footer {
     background: rgb(5, 61, 63);
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
     box-shadow: 50px 10px;
     color: white;
-    height: 5%;
+    height: 40px;
     display: flex;
     box-shadow: 0 1rem 5rem rgba(0, 0, 0, 3);
     justify-content: center;
