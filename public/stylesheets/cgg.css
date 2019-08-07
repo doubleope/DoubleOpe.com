@@ -102,6 +102,7 @@ button:hover {
     margin-bottom: 10px;
     border-radius: 20%;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.375);
+    font-size: 1rem;
 }
 
 #play-again {
@@ -115,22 +116,13 @@ button:hover {
     font-size: 1.2rem;
 }
 
-footer {
-    background: rgb(5, 61, 63);
-    
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 50px 10px;
-    color: white;
-    height: 40px;
-    display: flex;
-    box-shadow: 0 1rem 5rem rgba(0, 0, 0, 3);
-    justify-content: center;
-    justify-content: space-around;
-    font-size: 1em;
-}
 
 a {
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .col-lg-1 {
+      display: none;
+  }
+ }
