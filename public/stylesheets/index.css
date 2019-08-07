@@ -11,6 +11,10 @@ body {
   
 }
 
+html, body {
+    margin: 0;
+}
+
 i {
     font-size: 4rem;
     
@@ -75,7 +79,7 @@ span {
 }
 
 #projects {
-    height: 50%;
+   
 }
 
 .card {
@@ -104,6 +108,7 @@ li p {
     background-color: black;
     height: 40px;
     text-align: center;
+
 }
 
 #for-footer {
