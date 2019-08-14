@@ -79,7 +79,7 @@ function Circle(x, y, dx, dy, radius) {
 var circleArray = [];
 
 
-for (var i = 0; i < 100; i++) {
+for (var i = 0; i < 70; i++) {
 
     var x = Math.random() * innerWidth;
     var y = Math.random() * innerHeight;
