@@ -11,6 +11,9 @@ router.get('/cgg', function(req, res, next) {
 router.get('/cgg/about', function(req, res, next) {
   res.render('about');
 });
+router.get('/cg', function(req, res, next) {
+  res.render('cg');
+});
 
 
 module.exports = router;
