@@ -1,0 +1,128 @@
+html {
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 100%;
+}
+
+body{
+    background-color: cadetblue;
+    margin: 0px 0px 0px 0px;
+    padding-top: 0px;
+    height: 100%;
+}
+.maps{
+   
+    width: 30%;
+   
+    float: left;
+    margin: 1.66%;
+    height: 180px;
+    background: cadetblue;
+    position: relative;
+    vertical-align: center;
+   
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+#message {
+	display: inline-block;
+    width: 20%;
+    font-size: 1.2rem;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+#container{
+    margin: 20px auto;
+    max-width: 850px;
+    height: 100%;
+}
+
+h1, h2{
+    color:rgb(12, 10, 10);
+    text-align: center;
+}
+
+
+
+
+
+#country-display {
+color: purple;
+}
+
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+#bar {
+	background: white;
+	height: 30px;
+	text-align: center;
+    color: black;
+    padding: auto;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.375);
+}
+
+#heading {
+    background: powderblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20%;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.375);
+    font-size: 1rem;
+}
+
+#play-again {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding-right: 0;
+    background: white;
+    border-radius: 15%;
+    font-size: 1.2rem;
+}
+
+
+a {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-lg-1 {
+      display: none;
+  }
+ }
