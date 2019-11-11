@@ -20,4 +20,15 @@ body{
 
 }
 
+#beginning {
+    border-top: solid black;
+    border-style: inset;
+    border-radius: 30%;
+    margin-top: 1em;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.375);
+
+}
 
